@@ -1,18 +1,19 @@
 .landing {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2.5fr 1fr; /* Adjust the column sizes as needed */
 
   .left {
-    padding: 100px;
+    padding: 50px;
     padding-top: 20px;
-    background: $theme-primary;
+    padding-left: 100px;
+    background: rebeccapurple;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     .logo {
-      padding-bottom: 50px;
+      padding-bottom: 80px;
       display: flex;
       align-items: center;
       font-size: 30px;
@@ -25,11 +26,14 @@
 
     .button-wrapper {
       padding-top: 50px;
+      // padding-left: 10px;
     }
   }
 
   .right {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    margin-right: auto;
+    size: 10cm;
   }
 }

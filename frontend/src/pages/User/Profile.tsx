@@ -20,7 +20,7 @@ const Profile = (props: RouteProps) => {
       </div>
 
       <div className="right-panel">
-        <span className="title-small">Profile</span>
+        <span className="title-small">USER Profile</span>
 
         <div className="skeleton"></div>
         <div className="skeleton"></div>

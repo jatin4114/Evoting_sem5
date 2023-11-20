@@ -9,9 +9,11 @@ const Landing = () => {
           <img src="logo.png" />
         </div>
 
-        <div className="title-large">Blockchain Based</div>
-        <div className="title-large">Voting System</div>
-        <div className="title-small">the future of voting</div>
+        <div className="title-large underline">VOTE AWAAZ</div>
+        <div className="title-small" style={{ marginBottom: "10px" }}>-------------------------------------- </div>
+        <div className="title-large">Give your Votes a Voice & </div>
+       
+        <div className="title-small">Let's change the world together</div>
 
         <div className="button-wrapper">
           <Link to="/login">
